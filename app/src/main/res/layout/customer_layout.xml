@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabBackground"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/btn_zero2"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395341613216",
+    "project_id": "chat-app-pdp",
+    "storage_bucket": "chat-app-pdp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395341613216:android:9db2204bb00ab848d161c5",
+        "android_client_info": {
+          "package_name": "com.example.pdpchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395341613216-c28cr1hui6iocdobli6d2gpkeld3jis0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwMYeTTXWauM1bYAHFAyMRUMPUNuoZG_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395341613216-c28cr1hui6iocdobli6d2gpkeld3jis0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

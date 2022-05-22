@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backGround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/costumer_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signInCard1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageUser"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/ic_baseline_person_pin_24" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Name"
+                android:textColor="#7E7474" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Password"
+                android:textColor="#7E7474" />
+
+            <TextView
+                android:id="@+id/signInText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Sign In"
+                android:textColor="@color/purple_700"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signInCard2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backGround"
+        app:layout_constraintEnd_toEndOf="@+id/backGround"
+        app:layout_constraintStart_toStartOf="@+id/backGround"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageUserSign"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/ic_baseline_person_pin_24" />
+
+            <EditText
+                android:id="@+id/nameSign"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Name"
+                android:textColor="#7E7474" />
+            <EditText
+                android:id="@+id/userNameSign"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Lastname"
+                android:textColor="#7E7474" />
+
+            <EditText
+                android:id="@+id/passwordSignIn1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Password"
+                android:textColor="#7E7474" />
+
+            <TextView
+                android:id="@+id/passwordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:textSize="20sp"
+                android:textColor="@color/purple_700"
+                android:text="Parolni takroro kiriting"
+
+                />
+
+            <EditText
+                android:id="@+id/passwordSignIn2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/chat_custom_view_off"
+                android:padding="10dp"
+                android:hint="Password"
+                android:textColor="#7E7474" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
