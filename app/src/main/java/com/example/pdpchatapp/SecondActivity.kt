@@ -14,16 +14,16 @@ class SecondActivity : AppCompatActivity() {
         binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.signInText.setOnClickListener {
-            binding.signInCard1.visibility = View.INVISIBLE
-            binding.signInCard2.visibility = View.VISIBLE
-            binding.backImage.visibility = View.VISIBLE
-        }
-
-        binding.backImage.setOnClickListener {
-            binding.signInCard1.visibility = View.VISIBLE
-            binding.signInCard2.visibility = View.INVISIBLE
-            binding.backImage.visibility = View.INVISIBLE
-        }
+//        binding.signInText.setOnClickListener {
+//            binding.signInCard1.visibility = View.INVISIBLE
+//            binding.signInCard2.visibility = View.VISIBLE
+//            binding.backImage.visibility = View.VISIBLE
+//        }
+//
+//        binding.backImage.setOnClickListener {
+//            binding.signInCard1.visibility = View.VISIBLE
+//            binding.signInCard2.visibility = View.INVISIBLE
+//            binding.backImage.visibility = View.INVISIBLE
+//        }
     }
 }

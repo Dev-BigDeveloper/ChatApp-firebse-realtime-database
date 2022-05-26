@@ -2,5 +2,8 @@
     <string name="app_name">PDPChatApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">click button</string>
+    <string name="dialogTitle">Internet yoq !!!</string>
+    <string name="dialogMessage">Iltimos internetni tekshirib ko`ring internet yoq</string>
     <string name="textCard1">Salom !!! siz Google akkaunt orqali ishlaydigan chat app ga kirdingiz google accauntingiz orqali chatga kiring click tugmasini bosing</string>
 </resources>

@@ -89,7 +89,6 @@ class ChatListFragment : Fragment() {
             }
         })
 
-
         reference.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 list.clear()
